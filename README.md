@@ -14,7 +14,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Running unit tests
 
-May end up using jest unit testing framework, if I do implement it.
+May stick with karam and jasmine :)
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 
