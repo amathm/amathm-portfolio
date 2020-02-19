@@ -13,6 +13,7 @@ import { ExperienceComponent } from './experience/experience.component';
 import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontawesome';
 
 import { faGithub, faLinkedin, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { MainNavComponent } from './main-nav/main-nav.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { faGithub, faLinkedin, faTwitter, faYoutube } from '@fortawesome/free-br
     FooterComponent,
     ContactFormComponent,
     YoutubeApiSectionComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    MainNavComponent
   ],
   imports: [
     BrowserModule,
