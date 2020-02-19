@@ -1,8 +1,30 @@
 .social-nav {
+    margin: 0;
+    padding:0;
     .social-nav__menu {
+        list-style-type: none;
+        margin: 0;
+        padding: 10px 0;
+        display: flex;
+        justify-content: flex-end;
+        background: #000;
         .social-nav__items {
+            display: inline-block;
             .social-nav__links {
-                //
+                padding: 10px;
+                text-decoration: none;
+                color: #fff;
+                &:hover {
+                    color: lightblue;
+                }
+            }
+            &:last-of-type {
+                .social-nav__links {
+                    color: lightblue;
+                    &:hover {
+                        color: #fff;
+                    }
+                }
             }
         }
     }

@@ -10,7 +10,9 @@ import { ContactFormComponent } from './contact-form/contact-form.component';
 import { YoutubeApiSectionComponent } from './youtube-api-section/youtube-api-section.component';
 import { ExperienceComponent } from './experience/experience.component';
 
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontawesome';
+
+import { faGithub, faLinkedin, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 @NgModule({
   declarations: [
@@ -30,4 +32,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+  constructor(private library: FaIconLibrary) {
+    library.addIcons(faGithub, faLinkedin, faTwitter, faYoutube);
+  }
+}
