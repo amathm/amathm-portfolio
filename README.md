@@ -2,7 +2,7 @@
 
 An Implementation of my new portfolio, using latest angular stable version (8) and NodeJs.
 It will be developed in stages, in order to save me some time, but I want to deploy
-A simpple version, in order to have something public, even if its work in progress.
+A simple version, in order to have something public, even if its work in progress.
 
 ## Development server
 
