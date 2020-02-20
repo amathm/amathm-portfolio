@@ -9,9 +9,11 @@ Run `npm install` in order to create node_module - install dependencies from pac
 
 ## Run app
 
-Run `npm start` to launch application and open it in localhost sever. Navigate to `http://localhost:4200/`. 
+Run `npm start` to launch application and open it in localhost sever. It will navigate you to presuming port `4200` is available - `http://localhost:4200/`. 
 
 ## Running unit tests
+
+Test to be implemented.
 
 May stick with karam and jasmine :)
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
