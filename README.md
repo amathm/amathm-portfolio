@@ -9,7 +9,7 @@ Run `npm install` in order to create node_module - install dependencies from pac
 
 ## Run app
 
-Run `npm start` to launch application and open it in localhost sever. It will navigate you to presuming port `4200` is available - `http://localhost:4200/`. 
+Run `npm start` to launch application and open it in localhost sever. It will navigate you to `http://localhost:4200/` - presuming port `4200` is available. 
 
 ## Running unit tests
 
