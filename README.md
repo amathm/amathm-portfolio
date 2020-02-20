@@ -4,13 +4,12 @@ An Implementation of my new portfolio, using latest angular stable version (8) a
 It will be developed in stages, in order to save me some time, but I want to deploy
 A simple version, in order to have something public, even if its work in progress.
 
-## Development server
+## Install 
+Run `npm install` in order to create node_module - install dependencies from package.json
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Run app
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Run `npm start` to launch application and open it in localhost sever. Navigate to `http://localhost:4200/`. 
 
 ## Running unit tests
 
