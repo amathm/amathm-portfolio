@@ -24,7 +24,7 @@ $nav-primary-white: #fff;
                 justify-content: space-between;
                 .nav-items__menu-items {
                     // background: grey;
-                    padding: 10px 25px;
+                    padding: $nav-item-padding;
                     .nav-items__menu-links {
                         text-decoration: none;
                         padding: 10px;

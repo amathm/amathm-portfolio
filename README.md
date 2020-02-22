@@ -2,17 +2,18 @@
 
 An Implementation of my new portfolio, using latest angular stable version (8) and NodeJs.
 It will be developed in stages, in order to save me some time, but I want to deploy
-A simpple version, in order to have something public, even if its work in progress.
+A simple version, in order to have something public, even if its work in progress.
 
-## Development server
+## Install 
+Run `npm install` in order to create node_module - install dependencies from package.json
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Run app
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Run `npm start` to launch application and open it in localhost sever. It will navigate you to `http://localhost:4200/` - presuming port `4200` is available. 
 
 ## Running unit tests
+
+Test to be implemented.
 
 May stick with karam and jasmine :)
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
